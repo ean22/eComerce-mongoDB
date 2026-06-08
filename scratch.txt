@@ -1,0 +1,73 @@
+{ "produtos": 
+	{
+		"_id"
+		"nome"
+		"atributos": 
+			{
+				"ram"
+				"fonte" 
+				"tamanho"
+				"sexo"
+				 ...
+			}
+		"preço"
+		"categoria"
+		"subcategoria"
+		"quantidade"
+		"status"
+		"created_at"
+		"deleted_at"
+	}
+}
+
+
+
+{ "carrinhos":
+	{
+		"_id"
+		"id_usuario"
+		"itens":[
+				{
+					"id_produto"
+					"quantidade"
+				},
+			]
+		"status"
+		"created_at"
+		"deleted_at"
+	}
+}
+
+
+
+{ "pedidos":
+	{
+		"_id"
+		"id_carrinho"
+		"itens":[
+				{
+					"_id" 
+					"id_produto"
+					"preço"
+					"quantidade"
+				},
+			]
+		"preço_total"
+		"status"
+		"created_at"
+		"deleted_at"
+	}
+}
+
+
+
+{ "usuario":
+	{
+		"_id"
+		"email"
+		"senha_hash"
+		"status"
+		"created_at"
+		"deleted_at"
+	}
+}
