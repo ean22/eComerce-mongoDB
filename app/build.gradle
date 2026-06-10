@@ -25,6 +25,7 @@ dependencies {
     implementation libs.guava
     implementation("org.mongodb:mongodb-driver-sync:5.8.0")
     implementation("org.slf4j:slf4j-simple:2.0.13")
+    implementation("org.projectlombok:lombok:1.18.46")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
